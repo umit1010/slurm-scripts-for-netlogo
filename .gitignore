@@ -1,0 +1,40 @@
+# Ignore backup files
+*~
+*.bak
+
+# Ignore log files
+*.log
+
+# Ignore compiled binaries
+*.out
+*.exe
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore shell history files
+.bash_history
+
+# Ignore environment files
+.env
+
+# Ignore node_modules if present
+node_modules/
+
+# Ignore Python cache if present
+__pycache__/
+*.pyc
+
+# Ignore NetLogo files if present
+*.nlogo
+*.nlogo3d
+*.nlogox
+*.nlogo3dx
+*.tmp
+
+.DS_Store
