@@ -22,11 +22,11 @@ sbatch sample_standalone_job.sh
 
 ## `generate_and_submit.sh` 
 
-This script makes life much easier (at least for me) when submitting Slurm jobs to run NetLogo Behaviorspace experiments. 
+This script makes life much easier (at least for me) when submitting Slurm jobs to run NetLogo BehaviorSpace experiments. 
 
 Before using it, make sure to update the `config.sh` file with your email address, allocation/project ID, and the experiment directory.
 
-Then, run this script with the following command line arguments:
+Then, run this script with the following command-line arguments:
 
 * `model file` (including the file extension)
 * `experiment name` 
@@ -35,7 +35,7 @@ Then, run this script with the following command line arguments:
 * `threads` (number of CPU cores to request)
 * `ram` (in megabytes)
 
-It will automatically generates an intermediary bash script, and then use it to submit the job. It will also delete the intermediary file after submission to prevent folder pollution.
+It will automatically generate an intermediary bash script and then use it to submit the job. It will also delete the intermediary file after submission to prevent folder pollution.
 
 Here's an example use:
 
